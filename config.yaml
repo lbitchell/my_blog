@@ -45,6 +45,8 @@ params:
       url: "https://twitter.com/BitchellLeah"
   highlightjsTheme: github
   highlightjsVersion: 9.12.0
+  googleTagManager:
+    id: "269396433"
   logo:
     alt: Logo
     height: 50
