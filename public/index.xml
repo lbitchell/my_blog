@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PhD&#39;s, Blogs and Dogs 🐶</title>
+    <link>/</link>
+    <description>Recent content on PhD&#39;s, Blogs and Dogs 🐶</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>/2021/01/27/how-to-survive/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/01/27/how-to-survive/</guid>
+      <description>Hello World!
+Thought it would be good to start things off with a little blog post all about me 👋🏼
+If you’ve already read ‘about me’, you’ll know I’m currently a Ph.D candidate. If not, then I’m currently a Ph.D candidate.
+I’m hoping this site will serve both as a deposit for my experiences and projects of interest as well as a trash bin for all my Ph.D thoughts and jargon.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hello! Thanks for taking the time to visit my site. Here&amp;rsquo;s what you need to know before going any further&amp;hellip; I&amp;rsquo;m a Ph.D student at Cardiff Metropolitan University, investigating the various injuries sustained by professional Rugby Union players. My current projects include analysing injury rates through traditional epidemiological techniques, probability based analysis and using performance analysis techniques to investigate injury mechanisms in matches. I&amp;rsquo;m a frequent R user, occasional Pythonista and have a complicated relationship with Excel.</description>
+    </item>
+    
+  </channel>
+</rss>

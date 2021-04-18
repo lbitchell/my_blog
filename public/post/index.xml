@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on PhD&#39;s, Blogs and Dogs 🐶</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on PhD&#39;s, Blogs and Dogs 🐶</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>/2021/01/27/how-to-survive/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/01/27/how-to-survive/</guid>
+      <description>Hello World!
+Thought it would be good to start things off with a little blog post all about me 👋🏼
+If you’ve already read ‘about me’, you’ll know I’m currently a Ph.D candidate. If not, then I’m currently a Ph.D candidate.
+I’m hoping this site will serve both as a deposit for my experiences and projects of interest as well as a trash bin for all my Ph.D thoughts and jargon.</description>
+    </item>
+    
+  </channel>
+</rss>
