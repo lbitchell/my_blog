@@ -39,6 +39,7 @@ params:
   highlightjsLang:
     - r
     - yaml 
+  math: true  
   social: 
     - name: Twitter
       icon: "fa fa-twitter fa-2x"

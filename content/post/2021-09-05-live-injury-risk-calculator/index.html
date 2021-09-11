@@ -1,0 +1,31 @@
+---
+title: Live Injury Risk Calculator
+author: Leah Bitchell
+date: '2021-09-05'
+slug: live-injury-risk-calculator
+categories: []
+tags: []
+bibliography: parekh.bib
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>It’s been a while since I created this website, but I’ve been hard at work in my Ph.D. cave.</p>
+<p>A fairly substantial piece I’ve been working on is one of the chapters from the Ph.D. It’s a study looking at different ways to analyse injury data from Rugby Union injury surveillance - taking a more player-specific approach to analysing and reporting injury rates. Part of this analysis incorporated the well known Poisson distribution used in risk statistics.</p>
+<p>Though Rugby Union epidemiology typically uses the injury incidence (injuries per 1000 exposure hours) to represent injury rates, a study by Parekh and colleagues <span class="citation">(<a href="#ref-Parekh2011" role="doc-biblioref">2011</a>)</span> sparked the idea of a probability based analysis of the injury risk. In this circumstance, the Poisson model considers a players injury incidence (using the number of injuries they have incurred and the number of exposure hours they have accumulated) to calculate the percentage probability of a given number of injuries in a given number of exposure hours.</p>
+<p>So, it looks like this…</p>
+<p><span class="math display">\[P(k)=\frac{(λt)^k e^{-λt}}{k!}\]</span>
+where λ = injury incidence divided by 1000, <em>t</em> = the number of match exposure hours, <em>e</em> = the base of the natural logarithm and <em>k</em>! = factorial of <em>‘k’</em>.</p>
+<p>The application of this analysis within my chapter worked out pretty well and provided some interesting findings across a large cohort of players - it’s currently under review for publication 🤞🏼</p>
+<p>And so came the fun bit - creating a shiny app!</p>
+<p>The app enables medical professional/anyone who’s interested to make a quick assessment of the risk of a player sustaining only one, or more than one injury.</p>
+<iframe height="800" width="100%" frameborder="no" src="https://leahbitchell.shinyapps.io/Live_Injury_Risk_Calculator/">
+</iframe>
+<p>Have a play!</p>
+<p>Hopefully the study will be published soon, and someone other than me will find this interesting 😅</p>
+<div id="refs" class="references hanging-indent">
+<div id="ref-Parekh2011">
+<p>Parekh, N., S. D. Hodges, A. Pollock, and G. Kirkwood. 2011. “Communicating the Risk of Injury in Schoolboy Rugby: Using Poisson Probability as an Alternative Presentation of the Epidemiology.” <em>British Journal of Sports Medicine</em> 46: 611–13.</p>
+</div>
+</div>
